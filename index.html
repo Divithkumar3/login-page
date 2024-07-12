@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo and Form Layout</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            .full-height {
+                height: 100vh;
+            }
+            h1{
+                background-color: rgb(25, 242, 5);
+                color: blue;
+                text-align: center;
+            }
+            button{
+                margin-left: 300px;
+            }
+            .img1{
+                position: relative;
+                bottom: 500px;
+                left: 35px;
+                border-radius: 50%;
+            }
+            p{
+                position: relative;
+                bottom: 250px;
+                left: 40px;
+                font-size: 15px;
+                font-weight: 700;
+            }
+            h2{
+                background-color: greenyellow;
+                text-align: center;
+            }
+            h3{
+               position: relative;
+               bottom: 300px;
+               left: 40px;
+               font-size: 50px;
+               color: rgb(237, 245, 5);
+            }
+            .container{
+                position: relative;
+                bottom: 120px;
+            }
+            h5{
+                position: relative;
+                left: 320px;
+                top: 30px;
+            }
+            a{
+                position: relative;
+                left: 220px;
+                top: 60px;
+                font-size: 30px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <div class="row h-100">
+                <div class="col-md-6 bg-image" >
+                   <img src="img.png" alt="">
+                   <div class="carousel-caption d-none d-md-block">
+                    <img  class="img1" src="images.jpeg" alt="">
+                   </div>
+                   <div class="carousel-caption d-none d-md-block">
+                    <h3>7UP-REPEATU</h3>
+                    <p>7 Up is commonly consumed cold – refrigerated or with ice. It is also used as a mixer for highball alcoholic lemon-lime soda cocktails, including the 7 and 7 (Seagram's 7 Crown and 7 Up) and CC and Seven (Canadian Club whisky and 7 Up). 7 Up is also used in both alcoholic and non-alcoholic punches.</p>
+                   </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="container">
+                        <h1>WELCOME</h1>
+                        <h2>7-up drink/refresh</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Password</label>
+                                <input type="password" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                          <div>Forget your password?</div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <h5>or</h5>
+                            <a href="">create an account</a>
+                        </form>
+                        <div class="img">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+       
+    </body>
+    </html>
+    
+    
